@@ -1,0 +1,103 @@
+ .Body {
+    padding: 0px;
+    margin: 0px;
+ }
+
+ .Banner {
+    text-align: center;
+    display: block;
+    background-color: #216E70;
+    font-family: Calibri;
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    padding: 11px;
+ }
+
+ .Logo {
+    width: 250px;
+    height: 97px;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    bottom: 0px;
+ }
+
+ .Nav-menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Calibri;
+    font-size: 19px;
+ }
+
+ .Nav-list-item {
+    display: inline-block;
+    padding: 15px;
+    padding-top: 65px;
+    position: relative;
+    top: -20px;
+    left: 320px;
+    padding-left: 20px;
+ }
+
+ .List-item {
+
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+ }
+
+ .Front-image {
+    width: 1347px;
+    height: 500px;
+    position: relative;
+    top: -5px
+ }
+
+ .Page-title {
+    color: rgb(97, 97, 97);
+    font-family: Calibri;
+    font-size: 37px;
+    padding-left: 70px;
+    padding-top: 30px;
+ }
+
+ .paragraph {
+    word-wrap: break-word;
+    width: 610px;
+    font-family: Calibri;
+    font-size: 17px;
+    color: rgb(146, 146, 146);
+    padding-left: 70px
+ }
+
+ .Video {
+    padding-left: 10px;
+    padding-top: 40px;
+ }
+
+ .map {
+    position: relative;
+    top: -510px;
+    left: +820px;
+ }
+
+ .Address-section {
+    position: relative;
+    top: -500px;
+    left: +820px;
+    word-wrap: break-word;
+    width: 300px;
+    font-family: Calibri;
+ }
+
+ .email-company {
+    color: #216E70;
+    font-family: Calibri;
+    position: relative;
+    bottom: -15px;
+    padding-left: 1150px;
+    font-size: 17px
+ }

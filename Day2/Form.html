@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <P>Please select which role you would like to apply for:</P>
+
+        <label for="Job Titles">Choose a job title:</label> 
+    <select name="Job title" id="job title"> 
+        <option value="Teacher">Teacher</option> 
+        <option value="Driver">Driver</option> 
+        <option value="Web Developer">Web Developer</option> 
+        <option value="Dancer">Dancer</option> 
+    </select>
+
+        <p>Select your location:</p>
+        
+        <div>
+          <input type="radio" id="London" name="Location 1" value="London">
+          <label for="London">London</label>
+        </div>
+        
+        <div>
+          <input type="radio" id="Manchester" name="Location 2" value="Manchester">
+          <label for="Manchester">Manchester</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Nottingham" name="Location 3" value="Nottingham">
+            <label for="Nottingham">Nottingham</label>
+          </div>
+
+        <br>
+
+        <label for="Personal Statement">Tell us why you would like to work for us:</label>
+        <br>
+        <textarea id="Personal Statement Box" name="Personal Statement" rows="4" cols="50" placeholder="300 words max">
+        </textarea>
+
+        <P> Please select which ID you currently hold:</P>
+
+        <input type="checkbox" id="Passport" name="ID-1" value="Passport">
+        <label for="Passport">Passport</label><br>
+        <input type="checkbox" id="Driver's Lisence" name="ID-2" value="Driver's Lisence">
+        <label for="Driver's Lisence">Driver's Lisence</label><br>
+        <input type="checkbox" id="Birth Certificate" name="ID-3" value="Birth Certificate">
+        <label for="Birth Certificate">Birth Certificate</label><br>
+
+
+
+
+        <p>Upload Resume  
+            <form action="#">
+                <input type="file" id="myFile" name="filename">
+                <br>
+                <br>
+            </form>
+            </p>
+
+        <input type="submit" name="Submit Application" value="Submit Application"> 
+         
+
+         
+
+
+
+    </form>
+    
+</body>
+</html>
